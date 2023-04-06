@@ -143,6 +143,8 @@ const extrato = async (req, res) => {
     }
 }
 
+//fica apenas como consulta, caso queira implementar subistituir esse código
+// no endpoint listarTransacoes
 const extra = async (req, res) => {
     const { usuario } = req;
     const { filtro } = req.query;
